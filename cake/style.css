@@ -3,28 +3,24 @@ h1 {
   text-align: center;
   font-size: 75px;
   }
-  
+
   p {
   color: white;
   text-align: center;
   }
-  
+
   body {
     background-color: #021f35;
     margin: 0;
     color: white;
     font-family: 'Prompt', sans-serif;
   }
-  
+
   section {
       position: relative;
       display: flex;
       flex-direction: column;
       align-items: center;
-  }
-
-  img {
-  text-align: center;
   }
 
 
@@ -68,17 +64,17 @@ h1 {
 
   .button {
     background-color: #4CAF50; /* Green */
-        border: none;
-        color: white;
-        padding: 16px 32px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        margin: 4px 2px;
-        transition-duration: 0.4s;
-        cursor: pointer;
-        width: 250px;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: 200px;
   }
 
   .button1 {
@@ -94,14 +90,14 @@ h1 {
       overflow: hidden;
       line-height: 0;
   }
-  
+
   .wave svg {
       position: relative;
       display: block;
       width: calc(108% + 1.3px);
       height: 189px;
   }
-  
+
   .wave .shape-fill {
       fill: #022F9B;
   }
@@ -121,32 +117,30 @@ h1 {
       overflow: hidden;
       background-color: #333;
     }
-    
+
     li {
       float: left;
         border-right: 1px solid #737874;
     }
-    
+
     li a {
       display: block;
       color: white;
       text-align: center;
-  
+
       padding: 20px 16px;
       text-decoration: none;
     }
-    
+
     li a:hover {
       background-color: #111;
     }
-    
-    
-    
-    
+
+
     .active {
     background-color: #4a4a4a;
     }
-    
+
     li:last-child {
       border-right: none;
     }
