@@ -86,6 +86,13 @@ h1 {
       color: black;
     }
 
+button:disabled,
+button[disabled]{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
+
     .wave {
       position: absolute;
       top: 0;
