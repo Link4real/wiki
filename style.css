@@ -89,8 +89,9 @@ h1 {
 button:disabled,
 button[disabled]{
   border: 1px solid #999999;
-  background-color: #cccccc;
+  background-color: #a6a6a6;
   color: #666666;
+cursor: not-allowed;
 }
 
     .wave {
